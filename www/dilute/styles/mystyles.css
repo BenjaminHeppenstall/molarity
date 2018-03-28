@@ -27,11 +27,11 @@ button.backBtn {
 }
 input[type=text] {
 	width: 120px;
-    padding: 10px 24px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid #555;
-    outline: none;
+  padding: 10px 24px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
 }
 input[type=text]:focus {
 	background-color: lightblue;
@@ -67,16 +67,16 @@ select:focus {
 	color: black;
 }
 button {
-	background-color: #B22222; 
+	background-color: #008B8B; 
 	border-style: none;
 	color: black;
 	padding: 7px 13px;
-    text-decoration: none;
-    font-size: 19px;
-    cursor: pointer;
-    border-style: outset;
-    margin-top: 14px;
-    font-family: serif;
+  text-decoration: none;
+  font-size: 19px;
+  cursor: pointer;
+  border-style: outset;
+  margin-top: 14px;
+  font-family: serif;
 }
 .container  {
 	text-align: center;
