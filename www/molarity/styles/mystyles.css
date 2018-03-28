@@ -59,7 +59,7 @@ select:focus {
     box-shadow: none;
     background: transparent;
     font-family: serif;
-    font-size: 20px;
+    font-size: 12px;
     padding-right: 3px;
 }
 #selectConcentration:focus {

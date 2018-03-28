@@ -41,28 +41,28 @@ label {
 }
 select.inputs  {
 	padding: 7px 10px;
-    width: 120px;
-    border: outset;
-    box-shadow: none;
-    background: lightblue;
-    background-image: none;
-    -webkit-appearance: none;
+  width: 120px;
+  border: outset;
+  box-shadow: none;
+  background: lightblue;
+  background-image: none;
+  -webkit-appearance: none;
 }
 select:focus {
 	background: white;
 }
-#selectDilute  {
+#selectStockVolume  {
 	padding: 7px 0px;
-    width: 125px;
-    color: white;
-    border: none;
-    box-shadow: none;
-    background: transparent;
-    font-family: serif;
-    font-size: 20px;
-    padding-right: 3px;
+  width: 125px;
+  color: white;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  font-family: serif;
+  font-size: 12px;
+  padding-right: 3px;
 }
-#selectDilute:focus {
+#selectStockVolume:focus {
 	background: white;
 	color: black;
 }
