@@ -68,13 +68,13 @@ select:focus {
 }
 button {
 	background-color:  #2F4F4F; 
-	border-style: none;
 	color: black;
 	padding: 7px 13px;
     text-decoration: none;
     font-size: 19px;
     cursor: pointer;
     border-style: outset;
+    border-color: #696969;
     margin-top: 14px;
     font-family: serif;
 }

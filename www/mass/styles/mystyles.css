@@ -75,6 +75,7 @@ button {
     font-size: 19px;
     cursor: pointer;
     border-style: outset;
+    border-color: #696969;
     margin-top: 14px;
     font-family: serif;
 }
