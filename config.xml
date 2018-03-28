@@ -10,12 +10,12 @@
     <platform name="android">
     	<preference name="SplashMaintainAspectRatio" value="true"/>
     	<preference name="SplashShowOnlyFirstTime" value="true"/>
-    	<icon density="ldpi" src="res/icon/android/icon-ldpi.png"/>
-    	<icon density="mdpi" src="res/icon/android/icon-mdpi.png"/>
-    	<icon density="hdpi" src="res/icon/android/icon-hdpi.png"/>
-    	<icon density="xhdpi" src="res/icon/android/icon-xhdpi.png"/>
-    	<icon density="xxhdpi" src="res/icon/android/icon-xxhdpi.png"/>
-    	<icon density="xxxhdpi" src="res/icon/android/icon-xxxhdpi.png"/>
+    	<icon density="ldpi" src="res/icon/android/Icon-ldpi.png"/>
+    	<icon density="mdpi" src="res/icon/android/Icon-mdpi.png"/>
+    	<icon density="hdpi" src="res/icon/android/Icon-hdpi.png"/>
+    	<icon density="xhdpi" src="res/icon/android/Icon-xhdpi.png"/>
+    	<icon density="xxhdpi" src="res/icon/android/Icon-xxhdpi.png"/>
+    	<icon density="xxxhdpi" src="res/icon/android/Icon-xxxhdpi.png"/>
     	<splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png"/>
     	<splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png"/>
     	<splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png"/>
@@ -27,11 +27,11 @@
     	<preference name="SplashMaintainAspectRatio" value="true"/>
     	<preference name="SplashShowOnlyFirstTime" value="true"/>
     	<icon density="ldpi" src="res/icon//ldpi.png"/>
-    	<icon density="mdpi" src="res/icon/windows/icon-mdpi.png"/>
-    	<icon density="hdpi" src="res/icon/windows/icon-hdpi.png"/>
-    	<icon density="xhdpi" src="res/icon/windows/icon-xhdpi.png"/>
-    	<icon density="xxhdpi" src="res/icon/windows/icon-xxhdpi.png"/>
-    	<icon density="xxxhdpi" src="res/icon/windows/icon-xxxhdpi.png"/>
+    	<icon density="mdpi" src="res/icon/windows/Icon-mdpi.png"/>
+    	<icon density="hdpi" src="res/icon/windows/Icon-hdpi.png"/>
+    	<icon density="xhdpi" src="res/icon/windows/Icon-xhdpi.png"/>
+    	<icon density="xxhdpi" src="res/icon/windows/Icon-xxhdpi.png"/>
+    	<icon density="xxxhdpi" src="res/icon/windows/Icon-xxxhdpi.png"/>
     	<splash density="port-ldpi" src="res/screen/windows/splash-port-ldpi.png"/>
     	<splash density="port-mdpi" src="res/screen/windows/splash-port-mdpi.png"/>
     	<splash density="port-hdpi" src="res/screen/windows/splash-port-hdpi.png"/>
