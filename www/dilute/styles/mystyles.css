@@ -59,7 +59,7 @@ select:focus {
   box-shadow: none;
   background: transparent;
   font-family: serif;
-  font-size: 12px;
+  font-size: 17px;
   padding-right: 3px;
 }
 #selectStockVolume:focus {
