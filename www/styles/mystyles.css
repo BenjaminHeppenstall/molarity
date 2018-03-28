@@ -1,0 +1,23 @@
+.btn {
+	background-color: #008080; 
+	border-style: none;
+	color: black;
+	padding: 15px 32px;
+    text-decoration: none;
+    font-size: 28px;
+    cursor: pointer;
+    border-style: inset;
+    box-shadow: 0.667em 0.667em 0.333em black;
+    margin: auto;
+    display: block;
+    width: 90%;
+    margin-top: 30px;
+    font-family: serif;
+}
+.container {
+	width: 100%;
+	
+}
+.buttons {
+	text-align: center;
+}
