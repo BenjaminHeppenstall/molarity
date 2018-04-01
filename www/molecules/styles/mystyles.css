@@ -34,11 +34,6 @@ label {
      inset 0 0 15px black;
     width: 75%;
 }
-.btn:active {
-  background-color: lightblue;
-  box-shadow: 0 5px black;
-  transform: translateY(4px);
-}
 .container  {
 	text-align: center;
 	margin: 130px 0 0 0px;
