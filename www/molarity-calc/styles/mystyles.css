@@ -17,24 +17,24 @@
      6px 6px black,
      7px 7px black,
      8px 8px black,
-     12px 12px 10px red,
+     10px 10px 10px crimson,
      inset 0 0 15px black;
     margin: auto;
     display: block;
     width: 70%;
-    margin-top: 30px;
+    margin-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .btn:active {
-  background-color: #FF6347;
+  background-color: crimson;
   box-shadow: 0 5px black;
   transform: translateY(4px);
 }
 .container {
 	width: 100%;
     position: absolute;
-    top:20%;
+    top:80px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -53,4 +53,11 @@
     font-family: serif;
     text-align: center;
     -webkit-appearance: none;
+}
+.backBtn {
+    background-color: transparent; 
+    border-style: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 30px;
 }
