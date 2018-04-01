@@ -6,9 +6,22 @@ function calculateMoles() {
 
 	var answer1 = 1.660538863127 * amount;
 	answer1 = Math.round(answer1 * 100000000) / 100000000;
-	
-	var answer = power * answer1;
-	document.getElementById("answer").innerHTML = answer + " moles";
+
+	if (isNaN(amount) || amount <= 0) { 
+
+		document.getElementById("answer").innerHTML = "please fill in all fields with valid numbers";
+
+	} else {
+
+		var answer1 = 1.660538863127 * amount;
+		answer1 = Math.round(answer1 * 100000000) / 100000000;
+
+	    var answer = power * answer1;
+
+		document.getElementById("answer").innerHTML = answer + " moles";
+		//document.getElementById("answer").innerHTML = "works";
+		
+	}
 
 
 }

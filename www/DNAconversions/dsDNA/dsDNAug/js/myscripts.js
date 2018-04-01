@@ -4,15 +4,17 @@ function calculateDNAug() {
 	var length = parseFloat(document.getElementById("DNAlength").value, 10);
 	var amount = parseFloat(document.getElementById("DNAamount").value, 10);
 
-	var answer1 = amount * 660;
-	var answer = answer1 / 1000000 * length;
-	document.getElementById("answer").innerHTML = answer + " µg";
+	if (isNaN(length) || isNaN(amount) || length <= 0 || amount <= 0) { 
 
-	//answerArray = answer.toString();
-	//var digits = answerArray.split("");
-	//digits.push("1","2","3","4","5","6","7","8","9");
+		document.getElementById("answer").innerHTML = "please fill in all fields with valid numbers";
 
-	//var output = answer[1];
+	} else { 
 
-	//document.getElementById("answer").innerHTML = digits;
+		var answer1 = amount * 660;
+	    var answer = answer1 / 1000000 * length;
+
+		document.getElementById("answer").innerHTML = answer + " µg";
+		//document.getElementById("answer").innerHTML = "works";
+		
+	}
 }
