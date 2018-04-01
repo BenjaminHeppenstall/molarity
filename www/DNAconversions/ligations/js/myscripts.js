@@ -61,7 +61,7 @@ function change() {
 		    var answerSize = parseFloat(document.getElementById("selectRatio").value, 10);
 	    	var answer = answer / answerSize;
 
-	        document.getElementById("answer").innerHTML = answer + " ng insert for"; 
+	        document.getElementById("answer").innerHTML = Math.round(answer * 1000000) / 1000000 + " ng insert for"; 
 		    $("#selectRatio").show() 
 		} 
 	}
