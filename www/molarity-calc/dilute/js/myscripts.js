@@ -1,5 +1,29 @@
 //Vs = (Cd * Vd) / Cs
 
+var input = document.getElementById("stockConcentration");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("desiredConcentration").focus();
+    }
+});
+
+var input2 = document.getElementById("desiredConcentration");
+input2.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("desiredVolume").focus();
+    }
+});
+
+var input1 = document.getElementById("desiredVolume");
+input1.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("calcBtn").click();
+    }
+});
+
 $(document).ready(function(){
 	$("#selectStockVolume").hide()
 });

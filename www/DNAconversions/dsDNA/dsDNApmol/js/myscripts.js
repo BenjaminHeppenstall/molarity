@@ -1,8 +1,18 @@
 //amount * ((1/660) * 1 000 000) * (1/length) = pmol
 
-$('input[type="textbox"]').keyup(function(e) {
-    if(e.keyCode == 13) {
-        $(this).next().focus();
+var input = document.getElementById("DNAlength");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("DNAamount").focus();
+    }
+});
+
+var input1 = document.getElementById("DNAamount");
+input1.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("calcBtn").click();
     }
 });
 

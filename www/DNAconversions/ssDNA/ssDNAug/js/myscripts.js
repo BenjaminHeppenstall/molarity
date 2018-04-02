@@ -1,3 +1,20 @@
+
+var input = document.getElementById("DNAlength");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("DNAamount").focus();
+    }
+});
+
+var input1 = document.getElementById("DNAamount");
+input1.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("calcBtn").click();
+    }
+});
+
 function calculateDNAug() {
 
 	var length = parseFloat(document.getElementById("DNAlength").value, 10);

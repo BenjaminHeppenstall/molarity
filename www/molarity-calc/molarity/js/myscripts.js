@@ -1,5 +1,29 @@
 //C = (m/v) * (1/Da)
 
+var input = document.getElementById("mass");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("daltons").focus();
+    }
+});
+
+var input2 = document.getElementById("daltons");
+input2.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("volume").focus();
+    }
+});
+
+var input1 = document.getElementById("volume");
+input1.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("calcBtn").click();
+    }
+});
+
 $(document).ready(function(){
 	$("#selectConcentration").hide()
 });

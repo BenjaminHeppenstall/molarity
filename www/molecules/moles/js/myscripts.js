@@ -1,3 +1,12 @@
+
+var input1 = document.getElementById("molecules");
+input1.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("calcBtn").click();
+    }
+});
+
 function calculateMoles() {
 
 	var power = Math.pow(10, -24);
