@@ -1,4 +1,11 @@
 //amount * ((1/660) * 1 000 000) * (1/length) = pmol
+
+$('input[type="textbox"]').keyup(function(e) {
+    if(e.keyCode == 13) {
+        $(this).next().focus();
+    }
+});
+
 function calculateDNAug() {
 
 	var length = parseFloat(document.getElementById("DNAlength").value, 10);
