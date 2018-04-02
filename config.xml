@@ -1,8 +1,8 @@
-<?xml version='1.1' encoding='utf-8'?>
-<widget id="com.heppenstall.molarity" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.1">
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.heppenstall.molecularCalculations" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.1">
     <name>molarity Calculator</name>
     <description>
-        the best app ever.
+        tools for molecular biology.
     </description>
     <author email="heppenstall.co@gmail.com" href="http://heppenstall.atwebpages.com">
         Benjamin Heppenstall
