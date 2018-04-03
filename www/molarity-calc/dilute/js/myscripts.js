@@ -53,7 +53,7 @@ function calculateDilute() {
 
 		if (stockConcentration < desiredConcentration) { 
 
-			document.getElementById("answer").innerHTML = "impossible, stock concentration must be higher then desired concentration"; 
+			document.getElementById("answer").innerHTML = "impossible, stock Concentration must be higher then desired Concentration"; 
 			$("#selectStockVolume").hide()
 
 		} else {
@@ -64,7 +64,7 @@ function calculateDilute() {
 		    var answer = Math.round(answer * 1000000) / 1000000;
 
 
-			document.getElementById("answer").innerHTML = "the stock volume is " + answer; 
+			document.getElementById("answer").innerHTML = answer; 
 			$("#selectStockVolume").show()
 			//document.getElementById("answer").innerHTML = "works";
 			
@@ -118,7 +118,7 @@ function change() {
 		    var answer = Math.round(answer * 1000000) / 1000000;
 
 
-	        document.getElementById("answer").innerHTML = "the stock volume is " + answer; 
+	        document.getElementById("answer").innerHTML = answer; 
 		    $("#selectStockVolume").show() 
 		} 
 	}

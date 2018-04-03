@@ -57,7 +57,7 @@ function calculateMolarity() {
 	    var answer = Math.round(answer * 1000000) / 1000000;
 
 
-	    document.getElementById("answer").innerHTML = "The molarity is " + answer; 
+	    document.getElementById("answer").innerHTML = answer; 
 		$("#selectConcentration").show()
 		//document.getElementById("answer").innerHTML = "works";
 			
@@ -111,7 +111,7 @@ function change() {
 	        var answer = Math.round(answer * 1000000) / 1000000;
 
 
-	        document.getElementById("answer").innerHTML = "The molarity is " + answer; 
+	        document.getElementById("answer").innerHTML = answer; 
 		    $("#selectConcentration").show() 
 		}
 
