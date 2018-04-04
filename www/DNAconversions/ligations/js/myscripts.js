@@ -44,11 +44,29 @@ function calculateLigation() {
 		var answer = answer1 * vAmount;
 
 		var answerSize = parseFloat(document.getElementById("selectRatio").value, 10);
-	    var answer = answer / answerSize;
+	    
+	    //if (answerSize === "1" || "2" || "3") {
 
+	    	var answer = answer * answerSize;
+	    	document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    	$("#selectRatio").show()
 
-		document.getElementById("answer").innerHTML = answer + " ng insert for";
-		$("#selectRatio").show()
+	   /* else if (answerSize === "4") {
+
+	    	var two = 2;
+	    	var answer = answer * two;
+	    	document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    	$("#selectRatio").show()
+
+	    } else {
+
+	    	var three = 3;
+	    	var answer = answer * three;
+	    	document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    	$("#selectRatio").show()
+
+	    }*/
+
 		//document.getElementById("answer").innerHTML = "works";
 			
 
@@ -83,10 +101,30 @@ function change() {
 			var answer = answer1 * vAmount;
 
 		    var answerSize = parseFloat(document.getElementById("selectRatio").value, 10);
-	    	var answer = answer / answerSize;
+		    //if (answerSize === "1" || "2" || "3") {
+
+		    	var answer = answer * answerSize;
+		    	document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    	    $("#selectRatio").show()
+
+	    	/* else if (answerSize === "4") {
+
+	    		var two = 2;
+	    		var answer = answer * two;
+	    		document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    	    $("#selectRatio").show()
+
+	    	} else {
+
+	    		var three = 3;
+	    		var answer = answer * three;
+	    		document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    	    $("#selectRatio").show()
+
+	    	}
 
 	        document.getElementById("answer").innerHTML = Math.round(answer * 1000000) / 1000000 + " ng insert for"; 
-		    $("#selectRatio").show() 
+		    $("#selectRatio").show() */
 		} 
 	}
 }
