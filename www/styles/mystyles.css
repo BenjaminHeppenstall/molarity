@@ -1,3 +1,12 @@
+button.backBtn {
+  float: left;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
 .btn {
 	background-color: white; 
 	color: black;
@@ -36,7 +45,7 @@
     margin: auto;
 	
 }
-.buttons {
+/*.buttons {
 	text-align: center;
     background-color: transparent; 
     border-style: none;
@@ -47,4 +56,4 @@
     font-family: serif;
     text-align: center;
     -webkit-appearance: none;
-}
+}*/
