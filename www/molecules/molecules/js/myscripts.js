@@ -36,15 +36,15 @@ function calculateMolecules() {
 
 	    if (isNaN(size)) { 
 
-	    	document.getElementById("answer").innerHTML = answer + " molecules";
-
+	    	document.getElementById("answer").innerHTML = Math.round((answer * size) * 100) / 100 + " molecules";
+	    	
 	    } else if (size == 0) {
 
 	    	document.getElementById("answer").innerHTML = "0 molecules";
 
 	    } else {
 
-			document.getElementById("answer").innerHTML = answer * size + " molecules";
+			document.getElementById("answer").innerHTML = Math.round((answer * size) * 100) / 100 + " molecules";
 			//document.getElementById("answer").innerHTML = "works";
 
 		}
@@ -81,7 +81,7 @@ function change() {
 
 	    } else {
 
-			document.getElementById("answer").innerHTML = answer * size + " molecules";
+			document.getElementById("answer").innerHTML = Math.round((answer * size) * 100) / 100 + " molecules";
 			//document.getElementById("answer").innerHTML = "works";
 
 		}

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 10 22:27:02 CEST 2018
+#Sat May 12 21:00:11 CEST 2018
 60.set=ASSET
 52.set=ASSET
 53.base=C\:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations\\platforms\\android\\app\\build\\intermediates\\assets\\release

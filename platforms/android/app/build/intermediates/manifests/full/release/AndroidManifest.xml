@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.heppenstall.molarity"
+    package="com.heppenstall.molarityPREMIUM"
     android:hardwareAccelerated="true"
     android:versionCode="10701"
     android:versionName="1.7.1" >
@@ -25,7 +25,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
-            android:name="com.heppenstall.molarity.MainActivity"
+            android:name="com.heppenstall.molarityPREMIUM.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleTop"
