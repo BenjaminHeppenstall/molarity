@@ -29,8 +29,7 @@ function calculateDNAug() {
 
 	} else { 
 
-		var answer1 = amount * ((1 / 660) * 1000000);
-	    var answer = answer1 * (1 / length);
+		var answer = amount / (617.96 * length + 36.04) * 1000000;
 	    var answer = Math.round(answer);
 
 	    var copyNumber = answer * (6.022 * Math.pow(10, 23));
